@@ -1,0 +1,3 @@
+enum FuelType {
+  petrol, diesel
+}

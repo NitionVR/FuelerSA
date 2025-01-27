@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "675216732165",
+    "project_id": "fuel-price-tracker-9a2a7",
+    "storage_bucket": "fuel-price-tracker-9a2a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675216732165:android:eac6254466bc8dc9b42c6c",
+        "android_client_info": {
+          "package_name": "com.nition.fuel_price_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675216732165-dncttredrldvmt54r56qubsdrckfn5fu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nition.fuel_price_tracker",
+            "certificate_hash": "7caad48a498421a0b153bda459522c4f5166f7ce"
+          }
+        },
+        {
+          "client_id": "675216732165-0m2n7b30a8m1ctj4b0kco5951rt2h0om.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOyo3wIYdmdBq8Re1jejtwtr3SK66nheM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675216732165-0m2n7b30a8m1ctj4b0kco5951rt2h0om.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

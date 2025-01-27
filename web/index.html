@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="fuel_price_tracker">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>fuel_price_tracker</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<!-- Firebase Initialization -->
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAF1fs2qA9tgW8Ju_30ufeo766202QfKpA",
+      authDomain: "fuel-price-tracker-9a2a7.firebaseapp.com",
+      projectId: "fuel-price-tracker-9a2a7",
+      storageBucket: "fuel-price-tracker-9a2a7.firebasestorage.app",
+      messagingSenderId: "675216732165",
+      appId: "1:675216732165:web:f9bfb99e9744d8c7b42c6c",
+      measurementId: "G-0WVWPJ40D0"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    // Make Firebase available globally
+    window.firebaseApp = app;
+  </script>
+
+<!-- Flutter Bootstrap -->
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
