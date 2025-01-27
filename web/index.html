@@ -20,30 +20,24 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-<!-- Firebase Initialization -->
 <script type="module">
-    // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
 
-    // Your web app's Firebase configuration
     const firebaseConfig = {
-      apiKey: "AIzaSyAF1fs2qA9tgW8Ju_30ufeo766202QfKpA",
-      authDomain: "fuel-price-tracker-9a2a7.firebaseapp.com",
-      projectId: "fuel-price-tracker-9a2a7",
-      storageBucket: "fuel-price-tracker-9a2a7.firebasestorage.app",
-      messagingSenderId: "675216732165",
-      appId: "1:675216732165:web:f9bfb99e9744d8c7b42c6c",
-      measurementId: "G-0WVWPJ40D0"
+      apiKey: window.env.FIREBASE_API_KEY,
+      authDomain: window.env.FIREBASE_AUTH_DOMAIN,
+      projectId: window.env.FIREBASE_PROJECT_ID,
+      storageBucket: window.env.FIREBASE_STORAGE_BUCKET,
+      messagingSenderId: window.env.FIREBASE_MESSAGING_SENDER_ID,
+      appId: window.env.FIREBASE_APP_ID,
+      measurementId: window.env.FIREBASE_MEASUREMENT_ID
     };
 
-    // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
-
-    // Make Firebase available globally
     window.firebaseApp = app;
-  </script>
+</script>
 
 <!-- Flutter Bootstrap -->
 <script src="flutter_bootstrap.js" async></script>
